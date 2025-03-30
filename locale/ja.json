@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "AetherForge - インテリジェントアセット生成プラットフォーム",
+    "description": "AetherForge - デザイナーと開発者に効率的なアセット制作ソリューションを提供するワンクリックのインテリジェントアセット生成ツール"
+  },
+  "header": {
+    "logo": "AetherForge",
+    "nav": {
+      "features": "機能",
+      "playground": "試してみる",
+      "comparison": "比較",
+      "pricing": "料金"
+    },
+    "login": "ログイン",
+    "signup": "無料で始める"
+  },
+  "hero": {
+    "title": "ワンクリックの<br>インテリジェントアセット生成",
+    "subtitle": "設計から実装まで、AetherForgeはデザイナーや開発者がアイデアを高品質のデジタルアセットに素早く変換するのを支援します",
+    "cta": {
+      "primary": "今すぐ試す",
+      "secondary": "詳細を見る"
+    },
+    "stats": {
+      "first": "デザイン効率アップ",
+      "second": "作業時間の節約",
+      "third": "満足ユーザー"
+    }
+  },
+  "features": {
+    "title": "強力な機能、シンプルな体験",
+    "subtitle": "AetherForgeは、強力なアセット生成機能を備えた直感的なワークフローを提供します",
+    "cards": {
+      "first": {
+        "title": "ワンクリックのアセット生成",
+        "text": "デザインプロトタイプや説明を提供するだけで、AIが自動的にスタイル付きのアセットファイルを生成します"
+      },
+      "second": {
+        "title": "インテリジェントなスタイル変換",
+        "text": "プリセットスタイルを選択するか、独自のスタイルをカスタマイズすると、AIが自動的にデザインに適用します"
+      },
+      "third": {
+        "title": "マルチフォーマット対応",
+        "text": "画像、HTML、SVG、Figma、テキストなど、さまざまな入力形式をサポート"
+      },
+      "fourth": {
+        "title": "強力なアセット管理",
+        "text": "生成されたすべてのアセットを一元管理し、簡単に検索や再利用が可能"
+      },
+      "fifth": {
+        "title": "チームコラボレーション",
+        "text": "複数ユーザーのコラボレーション機能により、チームメンバーはアセットを簡単に共有し、共同作業できます"
+      },
+      "sixth": {
+        "title": "高速処理",
+        "text": "最適化されたAIモデルにより、高品質のアセットを迅速に生成"
+      }
+    }
+  },
+  "how": {
+    "title": "簡単3ステップ、アセット完成",
+    "subtitle": "AetherForgeがあなたのアイデアを使用可能なアセットに変換する方法を学びましょう",
+    "steps": {
+      "first": {
+        "title": "アップロードまたは入力",
+        "text": "デザインプロトタイプを画像、HTML、SVG、Figmaファイルとしてアップロード、またはテキスト説明を入力"
+      },
+      "second": {
+        "title": "スタイルを選択",
+        "text": "プリセットスタイルから選択するか、希望のスタイルをカスタマイズ"
+      },
+      "third": {
+        "title": "アセットを生成",
+        "text": "高品質なアセットをワンクリックで生成し、ダウンロードまたはアセットライブラリに保存"
+      }
+    }
+  },
+  "playground": {
+    "title": "今すぐ試す",
+    "subtitle": "AetherForgeのコア機能とワンクリックアセット生成の魔法を体験してください",
+    "tabs": {
+      "image": "画像",
+      "html": "HTML",
+      "svg": "SVG",
+      "figma": "Figma",
+      "text": "テキスト"
+    },
+    "upload": {
+      "image": "ドラッグ＆ドロップまたはクリックしてアップロード",
+      "formats": "JPG、PNG、GIFをサポート"
+    },
+    "preview": {
+      "remove": "削除",
+      "idle": "アセットプレビューがここに表示されます",
+      "loading": "処理中...",
+      "error": "処理中にエラーが発生しました",
+      "tryAgain": "再試行"
+    },
+    "placeholder": {
+      "html": "HTMLコードをここに入力...",
+      "svg": "SVGコードをここに入力..."
+    },
+    "figma": {
+      "url": "Figma URL",
+      "placeholder": "https://www.figma.com/file/...",
+      "frame": "フレーム/コンポーネントを選択",
+      "select": "まず有効なFigma URLを入力してください"
+    },
+    "text": {
+      "label": "アセットの説明",
+      "placeholder": "作成したいアセットを詳細に説明してください..."
+    },
+    "style": {
+      "label": "スタイルを選択",
+      "pixel": "ピクセルアート",
+      "cartoon": "カートゥーン",
+      "realistic": "リアリスティック",
+      "custom": "カスタムスタイル"
+    },
+    "custom": {
+      "label": "カスタムスタイルの説明",
+      "placeholder": "希望するスタイルを説明してください..."
+    },
+    "model": {
+      "label": "AIモデル",
+      "sd": "Stable Diffusion",
+      "dalle": "DALL-E",
+      "recraft": "Recraft.ai"
+    },
+    "quality": {
+      "label": "品質/速度",
+      "speed": "速度",
+      "quality": "品質"
+    },
+    "generate": "アセットを生成",
+    "result": {
+      "regenerate": "再生成",
+      "download": "ダウンロード"
+    },
+    "steps": {
+      "analyzing": "入力を分析中...",
+      "generating": "プロンプトを生成中...",
+      "processing": "処理中...",
+      "finalizing": "アセット生成を完了中..."
+    },
+    "errors": {
+      "noInput": "入力コンテンツを提供してください",
+      "processingFailed": "処理に失敗しました。再試行してください"
+    },
+    "disclaimer": "無料トライアルは機能が制限されています。<a href=\"#pricing\">アップグレード</a>して全機能を利用できます。"
+  },
+  "testimonials": {
+    "title": "ユーザーフィードバック",
+    "subtitle": "他のユーザーがAetherForgeでワークフローをどのように向上させているかをご覧ください",
+    "cards": {
+      "first": {
+        "text": "\"AetherForgeは私のワークフローを完全に変革しました。手動で何時間もかけて作成する代わりに、数分で高品質のアセットを生成できるようになりました。\"",
+        "name": "田中陽子",
+        "role": "UIデザイナー、テック企業"
+      },
+      "second": {
+        "text": "\"小さなチームとして、多数のアセットを迅速に生成する必要があります。AetherForgeはこのプロセスをシンプルかつ効率的にし、生産性を少なくとも3倍向上させました。\"",
+        "name": "佐藤健太",
+        "role": "クリエイティブディレクター、デザインスタジオ"
+      },
+      "third": {
+        "text": "\"AetherForgeのスタイル変換機能は信じられないほど強力です！既存のデザインを異なるスタイルに簡単に変換し、クライアントにさまざまなオプションを提供できます。\"",
+        "name": "鈴木美咲",
+        "role": "フリーランスデザイナー"
+      }
+    }
+  },
+  "comparison": {
+    "title": "競合他社との比較",
+    "subtitle": "AetherForgeが主要機能で競合他社をどのように上回るかを確認してください",
+    "table": {
+      "aetherforge": "AetherForge",
+      "competitor1": "競合A",
+      "competitor2": "競合B"
+    },
+    "features": {
+      "oneclick": "ワンクリックアセット生成",
+      "multiformat": "マルチフォーマット対応",
+      "customstyle": "カスタムスタイル",
+      "figma": "Figma連携",
+      "team": "チームコラボレーション",
+      "models": "複数のAIモデル",
+      "speed": "処理速度",
+      "quality": "出力品質"
+    }
+  },
+  "painpoints": {
+    "title": "ユーザーの課題を解決",
+    "subtitle": "AetherForgeがデザイナーや開発者が直面する一般的な課題にどう対応するか",
+    "cards": {
+      "first": {
+        "problem": "時間のかかる手動作成",
+        "description": "デザイナーはさまざまなスタイルのアセットを手動で作成するのに多くの時間を費やし、生産性が低下します。",
+        "solution": "AetherForgeのソリューション",
+        "solutionText": "ワンクリックアセット生成により、作成時間を数時間から数分に短縮し、生産性を向上させます。"
+      },
+      "second": {
+        "problem": "難しいスタイル変換",
+        "description": "既存のデザインを新しいスタイルに変換するには、多くの場合、再設計が必要で、時間とリソースが無駄になります。",
+        "solution": "AetherForgeのソリューション",
+        "solutionText": "インテリジェントなスタイル変換により、再設計なしで既存のデザインを異なるスタイルに簡単に変換できます。"
+      },
+      "third": {
+        "problem": "ツールフォーマットの非互換性",
+        "description": "デザイナーと開発者は異なるツールを使用するため、アセットフォーマットの互換性がなく、ワークフローが中断します。",
+        "solution": "AetherForgeのソリューション",
+        "solutionText": "マルチフォーマット対応と変換機能により、デザイナーと開発者間のシームレスなワークフローを確保します。"
+      },
+      "fourth": {
+        "problem": "混沌としたアセット管理",
+        "description": "プロジェクトが成長するにつれてアセットが増加し、管理と検索が難しく時間がかかります。",
+        "solution": "AetherForgeのソリューション",
+        "solutionText": "強力な検索、カテゴリ分け、バージョン管理を備えた集中型アセットライブラリがアセット管理を簡素化します。"
+      }
+    }
+  },
+  "pricing": {
+    "title": "シンプルで透明な料金",
+    "subtitle": "最適なプランを選択し、いつでもアップグレードまたはダウングレード可能",
+    "monthly": "月払い",
+    "annually": "年払い",
+    "save": "20%節約",
+    "forever": "永久",
+    "perMonth": "/ 月",
+    "perYear": "/ 年",
+    "popular": "人気",
+    "guarantee": "14日間の無条件返金保証付き、リスクなしでAetherForgeをお試しください",
+    "cards": {
+      "free": {
+        "title": "無料",
+        "feature1": "月10回のアセット生成",
+        "feature2": "基本スタイルオプション",
+        "feature3": "標準処理速度",
+        "feature4": "個人使用のみ",
+        "feature5": "コミュニティサポート",
+        "cta": "始める"
+      },
+      "pro": {
+        "title": "プロ",
+        "feature1": "月100回のアセット生成",
+        "feature2": "すべてのプリセットスタイル",
+        "feature3": "カスタムスタイル説明",
+        "feature4": "優先処理キュー",
+        "feature5": "複数のAIモデル選択",
+        "feature6": "チームコラボレーション（最大3ユーザー）",
+        "feature7": "優先メールサポート",
+        "cta": "プロにアップグレード"
+      },
+      "enterprise": {
+        "title": "エンタープライズ",
+        "feature1": "無制限のアセット生成",
+        "feature2": "すべてのプロ機能",
+        "feature3": "優先APIアクセス",
+        "feature4": "最大処理速度",
+        "feature5": "チームコラボレーション（無制限ユーザー）",
+        "feature6": "高度な権限コントロール",
+        "feature7": "専任アカウントマネージャー",
+        "feature8": "SLA保証",
+        "cta": "営業に問い合わせ"
+      }
+    }
+  },
+  "cta": {
+    "title": "デザイン効率を向上させる準備はできていますか？",
+    "text": "今日からAetherForgeを使い始めて、ワンクリックアセット生成の魔法を体験しましょう",
+    "primary": "今すぐ試す",
+    "secondary": "デモの予約"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "AetherForgeについてもっと学び、一般的な質問への回答を得ましょう",
+    "questions": {
+      "q1": "AetherForgeはどのように機能しますか？",
+      "q2": "AetherForgeを使用するためにデザイン経験が必要ですか？",
+      "q3": "AetherForgeで生成したアセットを商業的に使用できますか？",
+      "q4": "AetherForgeからどのようなフォーマットでエクスポートできますか？",
+      "q5": "AetherForgeはFigmaとどのように連携しますか？"
+    },
+    "answers": {
+      "a1": "AetherForgeは高度なAI技術を使用して入力（デザインプロトタイプ、HTML、SVG、Figma、またはテキスト説明）を分析し、選択したスタイルと設定に基づいて高品質のアセットを生成します。全プロセスは完全に自動化され、数回クリックするだけで完了します。",
+      "a2": "いいえ！AetherForgeは直感的に設計されており、デザイン経験のない方でも使用できます。テキスト説明から始めるか、既存のデザインをアップロードすると、システムがプロセスをガイドします。",
+      "a3": "はい！プロおよびエンタープライズサブスクリプションでは、生成されたアセットの商業利用が制限なく許可されています。無料プランで生成されたアセットは個人使用のみです。詳細は利用規約をご覧ください。",
+      "a4": "AetherForgeはPNG、JPEG、SVG、PDF、HTML、CSSなど複数のエクスポート形式をサポートしています。ニーズに最適な形式を選択できます。",
+      "a5": "AetherForgeはFigmaプラグインとURL連携を提供しています。Figmaデザインから直接アセットを生成するか、Figma URLを入力して特定のフレームやコンポーネントを選択し、プラットフォームで処理できます。"
+    }
+  },
+  "footer": {
+    "logo": "AetherForge",
+    "description": "デザイナーと開発者の効率を高めるインテリジェントアセット生成プラットフォーム",
+    "product": "製品",
+    "features": "機能",
+    "pricing": "料金",
+    "roadmap": "ロードマップ",
+    "changelog": "変更履歴",
+    "company": "会社",
+    "about": "会社概要",
+    "careers": "採用情報",
+    "blog": "ブログ",
+    "contact": "お問い合わせ",
+    "resources": "リソース",
+    "docs": "ドキュメント",
+    "tutorials": "チュートリアル",
+    "community": "コミュニティ",
+    "api": "APIリファレンス",
+    "legal": "法的情報",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "cookies": "Cookieポリシー",
+    "security": "セキュリティ",
+    "copyright": "&copy; 2023 AetherForge. All rights reserved.",
+    "language": "言語:",
+    "languages": {
+      "zhCN": "简体中文",
+      "en": "English",
+      "ja": "日本語",
+      "ko": "한국어"
+    }
+  }
+}
+

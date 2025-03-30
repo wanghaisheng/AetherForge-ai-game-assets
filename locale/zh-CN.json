@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "AetherForge - 智能资产生成平台",
+    "description": "AetherForge - 一键式智能资产生成工具，为设计师和开发者提供高效的资产创建解决方案"
+  },
+  "header": {
+    "logo": "AetherForge",
+    "nav": {
+      "features": "功能",
+      "playground": "试用",
+      "comparison": "竞品对比",
+      "pricing": "价格"
+    },
+    "login": "登录",
+    "signup": "免费开始"
+  },
+  "hero": {
+    "title": "一键式智能资产<br>生成平台",
+    "subtitle": "从设计到实现，AetherForge 帮助设计师和开发者快速将创意转化为高品质数字资产",
+    "cta": {
+      "primary": "立即体验",
+      "secondary": "了解更多"
+    },
+    "stats": {
+      "first": "设计效率提升",
+      "second": "工作时间节省",
+      "third": "满意用户"
+    }
+  },
+  "features": {
+    "title": "强大功能，简约体验",
+    "subtitle": "AetherForge 提供直观简单的工作流程，同时具备强大的资产生成能力",
+    "cards": {
+      "first": {
+        "title": "一键式资产生成",
+        "text": "只需提供设计原型或描述，AI 自动生成符合风格的资产文件"
+      },
+      "second": {
+        "title": "智能风格迁移",
+        "text": "选择预设风格或自定义风格，AI 自动应用到你的设计中"
+      },
+      "third": {
+        "title": "多格式支持",
+        "text": "支持图像、HTML、SVG、Figma 和文本等多种输入格式"
+      },
+      "fourth": {
+        "title": "强大资产管理",
+        "text": "集中管理所有生成的资产，方便检索和重用"
+      },
+      "fifth": {
+        "title": "团队协作",
+        "text": "多人协作功能，让团队成员轻松共享和协作处理资产"
+      },
+      "sixth": {
+        "title": "高速处理",
+        "text": "优化的 AI 模型，确保快速生成高质量资产"
+      }
+    }
+  },
+  "how": {
+    "title": "简单三步，资产立现",
+    "subtitle": "了解 AetherForge 如何将你的创意转变为可用资产",
+    "steps": {
+      "first": {
+        "title": "上传或输入",
+        "text": "上传设计原型图像、HTML、SVG、Figma 文件或输入文本描述"
+      },
+      "second": {
+        "title": "选择风格",
+        "text": "从预设风格中选择或自定义你想要的风格"
+      },
+      "third": {
+        "title": "生成资产",
+        "text": "一键生成高质量资产并下载或保存到你的资产库"
+      }
+    }
+  },
+  "playground": {
+    "title": "立即体验",
+    "subtitle": "尝试 AetherForge 的核心功能，体验一键式资产生成的魔力",
+    "tabs": {
+      "image": "图像",
+      "html": "HTML",
+      "svg": "SVG",
+      "figma": "Figma",
+      "text": "文本"
+    },
+    "upload": {
+      "image": "拖放图片或点击上传",
+      "formats": "支持 JPG, PNG, GIF"
+    },
+    "preview": {
+      "remove": "移除",
+      "idle": "资产预览将显示在这里",
+      "loading": "正在处理...",
+      "error": "处理时出现错误",
+      "tryAgain": "重试"
+    },
+    "placeholder": {
+      "html": "在这里输入 HTML 代码...",
+      "svg": "在这里输入 SVG 代码..."
+    },
+    "figma": {
+      "url": "Figma URL",
+      "placeholder": "https://www.figma.com/file/...",
+      "frame": "选择 Frame/Component",
+      "select": "先输入有效的 Figma URL"
+    },
+    "text": {
+      "label": "资产描述",
+      "placeholder": "详细描述你想要创建的资产..."
+    },
+    "style": {
+      "label": "选择风格",
+      "pixel": "像素风",
+      "cartoon": "卡通风",
+      "realistic": "写实风",
+      "custom": "自定义风格"
+    },
+    "custom": {
+      "label": "自定义风格描述",
+      "placeholder": "描述你想要的风格..."
+    },
+    "model": {
+      "label": "AI 模型",
+      "sd": "Stable Diffusion",
+      "dalle": "DALL-E",
+      "recraft": "Recraft.ai"
+    },
+    "quality": {
+      "label": "质量/速度",
+      "speed": "速度",
+      "quality": "质量"
+    },
+    "generate": "生成资产",
+    "result": {
+      "regenerate": "重新生成",
+      "download": "下载"
+    },
+    "steps": {
+      "analyzing": "正在分析输入...",
+      "generating": "正在生成提示词...",
+      "processing": "正在处理...",
+      "finalizing": "正在完成资产生成..."
+    },
+    "errors": {
+      "noInput": "请提供输入内容",
+      "processingFailed": "处理失败，请重试"
+    },
+    "disclaimer": "免费试用版有功能限制。<a href=\"#pricing\">升级</a>获得完整功能。"
+  },
+  "testimonials": {
+    "title": "用户反馈",
+    "subtitle": "看看其他用户如何使用 AetherForge 提升他们的工作效率",
+    "cards": {
+      "first": {
+        "text": "\"AetherForge 彻底改变了我的工作流程。我现在可以在几分钟内生成高质量的资产，而不是花几小时手动创建。\"",
+        "name": "李晓明",
+        "role": "UI 设计师，科技公司"
+      },
+      "second": {
+        "text": "\"作为一个小团队，我们需要快速生成大量资产。AetherForge 让这个过程变得简单高效，我们的生产力提高了至少 3 倍。\"",
+        "name": "王建国",
+        "role": "创意总监，设计工作室"
+      },
+      "third": {
+        "text": "\"AetherForge 的风格迁移功能太强大了！我可以轻松地将现有设计转换为不同的风格，为客户提供多种选择。\"",
+        "name": "张文静",
+        "role": "自由设计师"
+      }
+    }
+  },
+  "comparison": {
+    "title": "竞品对比",
+    "subtitle": "了解 AetherForge 如何在关键功能上超越竞争对手",
+    "table": {
+      "aetherforge": "AetherForge",
+      "competitor1": "竞品 A",
+      "competitor2": "竞品 B"
+    },
+    "features": {
+      "oneclick": "一键式资产生成",
+      "multiformat": "多格式支持",
+      "customstyle": "自定义风格",
+      "figma": "Figma 集成",
+      "team": "团队协作",
+      "models": "多种 AI 模型",
+      "speed": "处理速度",
+      "quality": "输出质量"
+    }
+  },
+  "painpoints": {
+    "title": "解决用户痛点",
+    "subtitle": "AetherForge 如何解决设计师和开发者面临的常见挑战",
+    "cards": {
+      "first": {
+        "problem": "手动创建资产耗时",
+        "description": "设计师需要花费大量时间手动创建各种风格的资产，降低了工作效率。",
+        "solution": "AetherForge 解决方案",
+        "solutionText": "一键式资产生成功能，将创建时间从小时级缩短到分钟级，提高生产力。"
+      },
+      "second": {
+        "problem": "风格迁移困难",
+        "description": "将现有设计转换为新风格通常需要重新设计，浪费时间和资源。",
+        "solution": "AetherForge 解决方案",
+        "solutionText": "智能风格迁移功能，轻松将现有设计转换为不同风格，无需重新设计。"
+      },
+      "third": {
+        "problem": "工具格式不兼容",
+        "description": "设计师和开发者使用不同工具，导致资产格式不兼容和工作流中断。",
+        "solution": "AetherForge 解决方案",
+        "solutionText": "多格式支持和转换功能，确保设计师和开发者之间的无缝工作流程。"
+      },
+      "fourth": {
+        "problem": "资产管理混乱",
+        "description": "随着项目增长，资产数量激增，管理和检索变得困难且耗时。",
+        "solution": "AetherForge 解决方案",
+        "solutionText": "集中式资产库，提供强大的搜索、分类和版本控制功能，简化资产管理。"
+      }
+    }
+  },
+  "pricing": {
+    "title": "简单透明的价格",
+    "subtitle": "选择最适合你的方案，随时升级或降级",
+    "monthly": "月付",
+    "annually": "年付",
+    "save": "省 20%",
+    "forever": "永久",
+    "perMonth": "/ 月",
+    "perYear": "/ 年",
+    "popular": "最受欢迎",
+    "guarantee": "14 天无条件退款保证，无风险尝试 AetherForge",
+    "cards": {
+      "free": {
+        "title": "免费",
+        "feature1": "每月 10 次资产生成",
+        "feature2": "基础风格选项",
+        "feature3": "标准处理速度",
+        "feature4": "仅个人使用",
+        "feature5": "社区支持",
+        "cta": "开始使用"
+      },
+      "pro": {
+        "title": "专业版",
+        "feature1": "每月 100 次资产生成",
+        "feature2": "所有预设风格",
+        "feature3": "自定义风格描述",
+        "feature4": "优先处理队列",
+        "feature5": "多种 AI 模型选择",
+        "feature6": "团队协作 (最多 3 人)",
+        "feature7": "优先电子邮件支持",
+        "cta": "升级到专业版"
+      },
+      "enterprise": {
+        "title": "企业版",
+        "feature1": "无限资产生成",
+        "feature2": "所有专业版功能",
+        "feature3": "优先 API 访问",
+        "feature4": "最高处理速度",
+        "feature5": "团队协作 (无限用户)",
+        "feature6": "高级权限控制",
+        "feature7": "专属客户经理",
+        "feature8": "SLA 保障",
+        "cta": "联系销售"
+      }
+    }
+  },
+  "cta": {
+    "title": "准备好提升你的设计效率了吗？",
+    "text": "今天就开始使用 AetherForge，体验一键式资产生成的魔力",
+    "primary": "立即试用",
+    "secondary": "预约演示"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "了解更多关于 AetherForge 的常见问题和解答",
+    "questions": {
+      "q1": "AetherForge 如何工作？",
+      "q2": "我需要设计经验才能使用 AetherForge 吗？",
+      "q3": "我可以商用 AetherForge 生成的资产吗？",
+      "q4": "我可以从 AetherForge 导出什么格式？",
+      "q5": "AetherForge 与 Figma 如何集成？"
+    },
+    "answers": {
+      "a1": "AetherForge 使用先进的 AI 技术分析您的输入（设计原型、HTML、SVG、Figma 或文本描述），然后根据您选择的风格和设置生成高质量的资产。整个过程完全自动化，只需点击几下即可完成。",
+      "a2": "不需要！AetherForge 设计得非常直观，即使没有设计经验的用户也能轻松使用。您可以从文本描述开始，或者上传现有的设计，系统会引导您完成整个过程。",
+      "a3": "是的！专业版和企业版订阅允许您商用生成的资产，没有任何限制。免费版生成的资产仅允许个人使用。详细信息请查看我们的使用条款。",
+      "a4": "AetherForge 支持多种导出格式，包括 PNG、JPEG、SVG、PDF、HTML 和 CSS。您可以根据您的需求选择最合适的格式。",
+      "a5": "AetherForge 提供 Figma 插件和 URL 集成。您可以直接从 Figma 设计中生成资产，或者在我们的平台上输入 Figma URL 和选择特定的 Frame 或 Component 来处理。"
+    }
+  },
+  "footer": {
+    "logo": "AetherForge",
+    "description": "智能资产生成平台，帮助设计师和开发者提升效率",
+    "product": "产品",
+    "features": "功能",
+    "pricing": "价格",
+    "roadmap": "产品路线图",
+    "changelog": "更新日志",
+    "company": "公司",
+    "about": "关于我们",
+    "careers": "招贤纳士",
+    "blog": "博客",
+    "contact": "联系我们",
+    "resources": "资源",
+    "docs": "文档",
+    "tutorials": "教程",
+    "community": "社区",
+    "api": "API 参考",
+    "legal": "法律",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "cookies": "Cookie 政策",
+    "security": "安全",
+    "copyright": "&copy; 2023 AetherForge. 保留所有权利。",
+    "language": "语言：",
+    "languages": {
+      "zhCN": "简体中文",
+      "en": "English",
+      "ja": "日本語",
+      "ko": "한국어"
+    }
+  }
+}
+

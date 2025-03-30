@@ -1,132 +1,767 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- SEO Meta Tags -->
-  <meta name="description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="keywords" content="mobile, simulator, mobile design, mobile app">
-  <meta name="author" content="Your Name or Company">
-  <meta http-equiv="Content-Language" content="en">
-
-  <!-- Canonical Link -->
-  <link rel="canonical" href="https://www.yourwebsite.com/pc-simulator" />
-
-  <!-- Open Graph for Social Media -->
-  <meta property="og:title" content="PC Simulator">
-  <meta property="og:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta property="og:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta property="og:url" content="https://www.yourwebsite.com/pc-simulator">
-  <meta property="og:type" content="website">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="PC Simulator">
-  <meta name="twitter:description" content="A mobile simulator designed to demonstrate mobile interface design.">
-  <meta name="twitter:image" content="https://www.yourwebsite.com/pc-simulator-image.jpg">
-  <meta name="twitter:creator" content="@yourtwitterhandle">
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://www.yourwebsite.com/favicon.ico" type="image/x-icon">
-
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'UA-XXXXX-Y');
-  </script>
-
-  <!-- Microsoft Clarity -->
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y) {
-      window.clarity=window.clarity||function(){(clarity.q=clarity.q||[]).push(arguments)};
-      clarity('set', 'anonymizeIP', true);
-      i=l.createElement('script');i.async=1;i.src=r;i.type='text/javascript';
-      t=l.getElementsByTagName('script')[0];t.parentNode.insertBefore(i,t);
-    })(document,window,'script','https://www.clarity.ms/tag/XXXXXX');
-  </script>
-
-  <title>PC Simulator</title>
-
-  <style>
-    /* Global Styles */
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-    }
-
-    .mobile-container {
-      width: 360px;
-      height: 640px;
-      border: 16px solid black;
-      border-radius: 16px;
-      background-color: #fff;
-      position: relative;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .content {
-      font-size: 1.2rem;
-      color: #333;
-    }
-
-    /* Adjustments for PC */
-    @media (min-width: 768px) {
-      .mobile-container {
-        width: 600px;
-        height: 1000px;
-      }
-
-      .content {
-        font-size: 1.5rem;
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .mobile-container {
-        width: 800px;
-        height: 1400px;
-      }
-
-      .content {
-        font-size: 1.8rem;
-      }
-    }
-
-    /* Additional responsiveness for larger screens */
-    @media (min-width: 1200px) {
-      body {
-        justify-content: flex-start;
-      }
-
-      .mobile-container {
-        margin-top: 50px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AetherForge - 一键式智能资产生成工具，为设计师和开发者提供高效的资产创建解决方案">
+    <title data-i18n="meta.title">AetherForge - 智能资产生成平台</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <div class="mobile-container">
-    <div class="content">
-      <p>Mobile Simulator Screen</p>
-      <p>PC Version: Adjusted for larger screens.</p>
-    </div>
-  </div>
-</body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="AetherForge Logo" class="logo__img">
+                    <span class="logo__text" data-i18n="header.logo">AetherForge</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#features" class="nav__link" data-i18n="header.nav.features">功能</a></li>
+                        <li class="nav__item"><a href="#playground" class="nav__link" data-i18n="header.nav.playground">试用</a></li>
+                        <li class="nav__item"><a href="#comparison" class="nav__link" data-i18n="header.nav.comparison">竞品对比</a></li>
+                        <li class="nav__item"><a href="#pricing" class="nav__link" data-i18n="header.nav.pricing">价格</a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions">
+                    <a href="#" class="btn btn--secondary" data-i18n="header.login">登录</a>
+                    <a href="#pricing" class="btn btn--primary" data-i18n="header.signup">免费开始</a>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title" data-i18n="hero.title">一键式智能资产<br>生成平台</h1>
+                    <p class="hero__subtitle" data-i18n="hero.subtitle">从设计到实现，AetherForge 帮助设计师和开发者快速将创意转化为高品质数字资产</p>
+                    <div class="hero__cta">
+                        <a href="#playground" class="btn btn--primary btn--lg" data-i18n="hero.cta.primary">立即体验</a>
+                        <a href="#how-it-works" class="btn btn--secondary btn--lg" data-i18n="hero.cta.secondary">了解更多</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <span class="stat__number">3X</span>
+                            <span class="stat__text" data-i18n="hero.stats.first">设计效率提升</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">80%</span>
+                            <span class="stat__text" data-i18n="hero.stats.second">工作时间节省</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat__number">10K+</span>
+                            <span class="stat__text" data-i18n="hero.stats.third">满意用户</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="img/hero-image.svg" alt="AetherForge dashboard" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="features.title">强大功能，简约体验</h2>
+                    <p class="section-subtitle" data-i18n="features.subtitle">AetherForge 提供直观简单的工作流程，同时具备强大的资产生成能力</p>
+                </div>
+                <div class="features__grid">
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.first.title">一键式资产生成</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.first.text">只需提供设计原型或描述，AI 自动生成符合风格的资产文件</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.second.title">智能风格迁移</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.second.text">选择预设风格或自定义风格，AI 自动应用到你的设计中</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.third.title">多格式支持</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.third.text">支持图像、HTML、SVG、Figma 和文本等多种输入格式</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.fourth.title">强大资产管理</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.fourth.text">集中管理所有生成的资产，方便检索和重用</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.fifth.title">团队协作</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.fifth.text">多人协作功能，让团队成员轻松共享和协作处理资产</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-card__icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-card__title" data-i18n="features.cards.sixth.title">高速处理</h3>
+                        <p class="feature-card__text" data-i18n="features.cards.sixth.text">优化的 AI 模型，确保快速生成高质量资产</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="how.title">简单三步，资产立现</h2>
+                    <p class="section-subtitle" data-i18n="how.subtitle">了解 AetherForge 如何将你的创意转变为可用资产</p>
+                </div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step__number">1</div>
+                        <div class="step__content">
+                            <h3 class="step__title" data-i18n="how.steps.first.title">上传或输入</h3>
+                            <p class="step__text" data-i18n="how.steps.first.text">上传设计原型图像、HTML、SVG、Figma 文件或输入文本描述</p>
+                        </div>
+                        <div class="step__image">
+                            <img src="img/step1.svg" alt="Step 1" class="step__img">
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">2</div>
+                        <div class="step__content">
+                            <h3 class="step__title" data-i18n="how.steps.second.title">选择风格</h3>
+                            <p class="step__text" data-i18n="how.steps.second.text">从预设风格中选择或自定义你想要的风格</p>
+                        </div>
+                        <div class="step__image">
+                            <img src="img/step2.svg" alt="Step 2" class="step__img">
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step__number">3</div>
+                        <div class="step__content">
+                            <h3 class="step__title" data-i18n="how.steps.third.title">生成资产</h3>
+                            <p class="step__text" data-i18n="how.steps.third.text">一键生成高质量资产并下载或保存到你的资产库</p>
+                        </div>
+                        <div class="step__image">
+                            <img src="img/step3.svg" alt="Step 3" class="step__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="playground" id="playground">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="playground.title">立即体验</h2>
+                    <p class="section-subtitle" data-i18n="playground.subtitle">尝试 AetherForge 的核心功能，体验一键式资产生成的魔力</p>
+                </div>
+                <div class="playground__content">
+                    <div class="playground__controls">
+                        <div class="input-tabs">
+                            <div class="input-tab active" data-tab="image" data-i18n="playground.tabs.image">图像</div>
+                            <div class="input-tab" data-tab="html" data-i18n="playground.tabs.html">HTML</div>
+                            <div class="input-tab" data-tab="svg" data-i18n="playground.tabs.svg">SVG</div>
+                            <div class="input-tab" data-tab="figma" data-i18n="playground.tabs.figma">Figma</div>
+                            <div class="input-tab" data-tab="text" data-i18n="playground.tabs.text">文本</div>
+                        </div>
+                        
+                        <div class="input-panels">
+                            <div class="input-panel active" id="image-panel">
+                                <div class="upload-zone" id="image-upload">
+                                    <i class="fas fa-cloud-upload-alt"></i>
+                                    <p data-i18n="playground.upload.image">拖放图片或点击上传</p>
+                                    <span data-i18n="playground.upload.formats">支持 JPG, PNG, GIF</span>
+                                    <input type="file" id="image-input" accept="image/*" hidden>
+                                </div>
+                                <div class="uploaded-preview" id="image-preview" style="display: none;">
+                                    <img src="" alt="上传预览" id="preview-img">
+                                    <button class="btn btn--secondary btn--sm" id="remove-image" data-i18n="playground.preview.remove">移除</button>
+                                </div>
+                            </div>
+                            
+                            <div class="input-panel" id="html-panel">
+                                <div class="code-editor" id="html-editor">
+                                    <textarea placeholder="在这里输入 HTML 代码..." data-i18n="playground.placeholder.html"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="input-panel" id="svg-panel">
+                                <div class="code-editor" id="svg-editor">
+                                    <textarea placeholder="在这里输入 SVG 代码..." data-i18n="playground.placeholder.svg"></textarea>
+                                </div>
+                            </div>
+                            
+                            <div class="input-panel" id="figma-panel">
+                                <div class="form-group">
+                                    <label for="figma-url" data-i18n="playground.figma.url">Figma URL</label>
+                                    <input type="text" id="figma-url" placeholder="https://www.figma.com/file/..." data-i18n="playground.figma.placeholder">
+                                </div>
+                                <div class="form-group">
+                                    <label for="figma-frame" data-i18n="playground.figma.frame">选择 Frame/Component</label>
+                                    <select id="figma-frame" disabled>
+                                        <option value="" data-i18n="playground.figma.select">先输入有效的 Figma URL</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <div class="input-panel" id="text-panel">
+                                <div class="form-group">
+                                    <label for="text-input" data-i18n="playground.text.label">资产描述</label>
+                                    <textarea id="text-input" placeholder="详细描述你想要创建的资产..." data-i18n="playground.text.placeholder"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="style-settings">
+                            <div class="form-group">
+                                <label for="style-preset" data-i18n="playground.style.label">选择风格</label>
+                                <select id="style-preset">
+                                    <option value="pixel" data-i18n="playground.style.pixel">像素风</option>
+                                    <option value="cartoon" data-i18n="playground.style.cartoon">卡通风</option>
+                                    <option value="realistic" data-i18n="playground.style.realistic">写实风</option>
+                                    <option value="custom" data-i18n="playground.style.custom">自定义风格</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group" id="custom-style-group" style="display: none;">
+                                <label for="custom-style" data-i18n="playground.custom.label">自定义风格描述</label>
+                                <textarea id="custom-style" placeholder="描述你想要的风格..." data-i18n="playground.custom.placeholder"></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="ai-model" data-i18n="playground.model.label">AI 模型</label>
+                                <select id="ai-model">
+                                    <option value="sd" data-i18n="playground.model.sd">Stable Diffusion</option>
+                                    <option value="dalle" data-i18n="playground.model.dalle">DALL-E</option>
+                                    <option value="recraft" data-i18n="playground.model.recraft">Recraft.ai</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="quality-speed" data-i18n="playground.quality.label">质量/速度</label>
+                                <div class="slider-container">
+                                    <span data-i18n="playground.quality.speed">速度</span>
+                                    <input type="range" id="quality-speed" min="1" max="10" value="5">
+                                    <span data-i18n="playground.quality.quality">质量</span>
+                                </div>
+                            </div>
+                            
+                            <button id="generate-btn" class="btn btn--primary btn--block" data-i18n="playground.generate">生成资产</button>
+                        </div>
+                    </div>
+                    
+                    <div class="playground__preview">
+                        <div class="preview-state" id="idle-state">
+                            <div class="preview-placeholder">
+                                <i class="fas fa-image"></i>
+                                <p data-i18n="playground.preview.idle">资产预览将显示在这里</p>
+                            </div>
+                        </div>
+                        
+                        <div class="preview-state" id="loading-state" style="display: none;">
+                            <div class="loading-indicator">
+                                <div class="spinner"></div>
+                                <div class="status-message" data-i18n="playground.preview.loading">正在处理...</div>
+                                <div class="status-step" id="current-step"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="preview-state" id="result-state" style="display: none;">
+                            <div class="result-container">
+                                <div class="result-image-container">
+                                    <img src="" alt="生成结果" id="result-image">
+                                </div>
+                                <div class="result-actions">
+                                    <button class="btn btn--secondary" id="regenerate-btn" data-i18n="playground.result.regenerate">重新生成</button>
+                                    <button class="btn btn--primary" id="download-btn" data-i18n="playground.result.download">下载</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="preview-state" id="error-state" style="display: none;">
+                            <div class="error-message">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p id="error-text" data-i18n="playground.preview.error">处理时出现错误</p>
+                                <button class="btn btn--secondary" id="try-again-btn" data-i18n="playground.preview.tryAgain">重试</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playground__disclaimer">
+                    <p data-i18n="playground.disclaimer">免费试用版有功能限制。<a href="#pricing">升级</a>获得完整功能。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="testimonials.title">用户反馈</h2>
+                    <p class="section-subtitle" data-i18n="testimonials.subtitle">看看其他用户如何使用 AetherForge 提升他们的工作效率</p>
+                </div>
+                <div class="testimonials__slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text" data-i18n="testimonials.cards.first.text">"AetherForge 彻底改变了我的工作流程。我现在可以在几分钟内生成高质量的资产，而不是花几小时手动创建。"</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="img/user1.jpg" alt="User 1" class="testimonial-card__avatar">
+                            <div class="testimonial-card__info">
+                                <h4 class="testimonial-card__name" data-i18n="testimonials.cards.first.name">李晓明</h4>
+                                <p class="testimonial-card__role" data-i18n="testimonials.cards.first.role">UI 设计师，科技公司</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text" data-i18n="testimonials.cards.second.text">"作为一个小团队，我们需要快速生成大量资产。AetherForge 让这个过程变得简单高效，我们的生产力提高了至少 3 倍。"</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="img/user2.jpg" alt="User 2" class="testimonial-card__avatar">
+                            <div class="testimonial-card__info">
+                                <h4 class="testimonial-card__name" data-i18n="testimonials.cards.second.name">王建国</h4>
+                                <p class="testimonial-card__role" data-i18n="testimonials.cards.second.role">创意总监，设计工作室</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text" data-i18n="testimonials.cards.third.text">"AetherForge 的风格迁移功能太强大了！我可以轻松地将现有设计转换为不同的风格，为客户提供多种选择。"</p>
+                        </div>
+                        <div class="testimonial-card__author">
+                            <img src="img/user3.jpg" alt="User 3" class="testimonial-card__avatar">
+                            <div class="testimonial-card__info">
+                                <h4 class="testimonial-card__name" data-i18n="testimonials.cards.third.name">张文静</h4>
+                                <p class="testimonial-card__role" data-i18n="testimonials.cards.third.role">自由设计师</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonials__nav">
+                    <button class="testimonials__nav-btn testimonials__nav-btn--prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonials__dots">
+                        <span class="testimonials__dot active"></span>
+                        <span class="testimonials__dot"></span>
+                        <span class="testimonials__dot"></span>
+                    </div>
+                    <button class="testimonials__nav-btn testimonials__nav-btn--next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="comparison" id="comparison">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="comparison.title">竞品对比</h2>
+                    <p class="section-subtitle" data-i18n="comparison.subtitle">了解 AetherForge 如何在关键功能上超越竞争对手</p>
+                </div>
+                <div class="comparison__table-container">
+                    <div class="comparison__table">
+                        <div class="comparison__header">
+                            <div class="comparison__cell comparison__cell--feature"></div>
+                            <div class="comparison__cell comparison__cell--us">
+                                <img src="img/logo.svg" alt="AetherForge" class="comparison__logo">
+                                <span data-i18n="comparison.table.aetherforge">AetherForge</span>
+                            </div>
+                            <div class="comparison__cell">
+                                <span data-i18n="comparison.table.competitor1">竞品 A</span>
+                            </div>
+                            <div class="comparison__cell">
+                                <span data-i18n="comparison.table.competitor2">竞品 B</span>
+                            </div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.oneclick">一键式资产生成</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.multiformat">多格式支持</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.customstyle">自定义风格</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.figma">Figma 集成</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.team">团队协作</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-check-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.models">多种 AI 模型</div>
+                            <div class="comparison__cell comparison__cell--us"><i class="fas fa-check-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                            <div class="comparison__cell"><i class="fas fa-times-circle"></i></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.speed">处理速度</div>
+                            <div class="comparison__cell comparison__cell--us"><span class="rating">★★★★★</span></div>
+                            <div class="comparison__cell"><span class="rating">★★★☆☆</span></div>
+                            <div class="comparison__cell"><span class="rating">★★★★☆</span></div>
+                        </div>
+                        <div class="comparison__row">
+                            <div class="comparison__cell comparison__cell--feature" data-i18n="comparison.features.quality">输出质量</div>
+                            <div class="comparison__cell comparison__cell--us"><span class="rating">★★★★★</span></div>
+                            <div class="comparison__cell"><span class="rating">★★★★☆</span></div>
+                            <div class="comparison__cell"><span class="rating">★★★☆☆</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pain-points">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="painpoints.title">解决用户痛点</h2>
+                    <p class="section-subtitle" data-i18n="painpoints.subtitle">AetherForge 如何解决设计师和开发者面临的常见挑战</p>
+                </div>
+                <div class="pain-points__grid">
+                    <div class="pain-point-card">
+                        <div class="pain-point-card__header">
+                            <div class="pain-point-card__icon pain-point-card__icon--problem">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <h3 class="pain-point-card__title" data-i18n="painpoints.cards.first.problem">手动创建资产耗时</h3>
+                        </div>
+                        <p class="pain-point-card__text" data-i18n="painpoints.cards.first.description">设计师需要花费大量时间手动创建各种风格的资产，降低了工作效率。</p>
+                        <div class="pain-point-card__solution">
+                            <div class="pain-point-card__icon pain-point-card__icon--solution">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="pain-point-card__solution-content">
+                                <h4 data-i18n="painpoints.cards.first.solution">AetherForge 解决方案</h4>
+                                <p data-i18n="painpoints.cards.first.solutionText">一键式资产生成功能，将创建时间从小时级缩短到分钟级，提高生产力。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pain-point-card">
+                        <div class="pain-point-card__header">
+                            <div class="pain-point-card__icon pain-point-card__icon--problem">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <h3 class="pain-point-card__title" data-i18n="painpoints.cards.second.problem">风格迁移困难</h3>
+                        </div>
+                        <p class="pain-point-card__text" data-i18n="painpoints.cards.second.description">将现有设计转换为新风格通常需要重新设计，浪费时间和资源。</p>
+                        <div class="pain-point-card__solution">
+                            <div class="pain-point-card__icon pain-point-card__icon--solution">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="pain-point-card__solution-content">
+                                <h4 data-i18n="painpoints.cards.second.solution">AetherForge 解决方案</h4>
+                                <p data-i18n="painpoints.cards.second.solutionText">智能风格迁移功能，轻松将现有设计转换为不同风格，无需重新设计。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pain-point-card">
+                        <div class="pain-point-card__header">
+                            <div class="pain-point-card__icon pain-point-card__icon--problem">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <h3 class="pain-point-card__title" data-i18n="painpoints.cards.third.problem">工具格式不兼容</h3>
+                        </div>
+                        <p class="pain-point-card__text" data-i18n="painpoints.cards.third.description">设计师和开发者使用不同工具，导致资产格式不兼容和工作流中断。</p>
+                        <div class="pain-point-card__solution">
+                            <div class="pain-point-card__icon pain-point-card__icon--solution">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="pain-point-card__solution-content">
+                                <h4 data-i18n="painpoints.cards.third.solution">AetherForge 解决方案</h4>
+                                <p data-i18n="painpoints.cards.third.solutionText">多格式支持和转换功能，确保设计师和开发者之间的无缝工作流程。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pain-point-card">
+                        <div class="pain-point-card__header">
+                            <div class="pain-point-card__icon pain-point-card__icon--problem">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <h3 class="pain-point-card__title" data-i18n="painpoints.cards.fourth.problem">资产管理混乱</h3>
+                        </div>
+                        <p class="pain-point-card__text" data-i18n="painpoints.cards.fourth.description">随着项目增长，资产数量激增，管理和检索变得困难且耗时。</p>
+                        <div class="pain-point-card__solution">
+                            <div class="pain-point-card__icon pain-point-card__icon--solution">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="pain-point-card__solution-content">
+                                <h4 data-i18n="painpoints.cards.fourth.solution">AetherForge 解决方案</h4>
+                                <p data-i18n="painpoints.cards.fourth.solutionText">集中式资产库，提供强大的搜索、分类和版本控制功能，简化资产管理。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="pricing.title">简单透明的价格</h2>
+                    <p class="section-subtitle" data-i18n="pricing.subtitle">选择最适合你的方案，随时升级或降级</p>
+                </div>
+                <div class="pricing__toggle">
+                    <span data-i18n="pricing.monthly">月付</span>
+                    <label class="switch">
+                        <input type="checkbox" id="billing-toggle">
+                        <span class="slider round"></span>
+                    </label>
+                    <span data-i18n="pricing.annually">年付</span>
+                    <span class="pricing__save" data-i18n="pricing.save">省 20%</span>
+                </div>
+                <div class="pricing__plans">
+                    <div class="pricing-card">
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__title" data-i18n="pricing.cards.free.title">免费</h3>
+                            <div class="pricing-card__price">
+                                <span class="price">¥0</span>
+                                <span class="period" data-i18n="pricing.forever">永久</span>
+                            </div>
+                        </div>
+                        <div class="pricing-card__features">
+                            <ul>
+                                <li data-i18n="pricing.cards.free.feature1">每月 10 次资产生成</li>
+                                <li data-i18n="pricing.cards.free.feature2">基础风格选项</li>
+                                <li data-i18n="pricing.cards.free.feature3">标准处理速度</li>
+                                <li data-i18n="pricing.cards.free.feature4">仅个人使用</li>
+                                <li data-i18n="pricing.cards.free.feature5">社区支持</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card__cta">
+                            <a href="#" class="btn btn--secondary btn--block" data-i18n="pricing.cards.free.cta">开始使用</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card pricing-card--popular">
+                        <div class="pricing-card__badge" data-i18n="pricing.popular">最受欢迎</div>
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__title" data-i18n="pricing.cards.pro.title">专业版</h3>
+                            <div class="pricing-card__price" id="pro-price">
+                                <span class="price monthly">¥99</span>
+                                <span class="price annually" style="display: none;">¥79</span>
+                                <span class="period monthly" data-i18n="pricing.perMonth">/ 月</span>
+                                <span class="period annually" style="display: none;" data-i18n="pricing.perMonth">/ 月</span>
+                            </div>
+                        </div>
+                        <div class="pricing-card__features">
+                            <ul>
+                                <li data-i18n="pricing.cards.pro.feature1">每月 100 次资产生成</li>
+                                <li data-i18n="pricing.cards.pro.feature2">所有预设风格</li>
+                                <li data-i18n="pricing.cards.pro.feature3">自定义风格描述</li>
+                                <li data-i18n="pricing.cards.pro.feature4">优先处理队列</li>
+                                <li data-i18n="pricing.cards.pro.feature5">多种 AI 模型选择</li>
+                                <li data-i18n="pricing.cards.pro.feature6">团队协作 (最多 3 人)</li>
+                                <li data-i18n="pricing.cards.pro.feature7">优先电子邮件支持</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card__cta">
+                            <a href="#" class="btn btn--primary btn--block" data-i18n="pricing.cards.pro.cta">升级到专业版</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-card__header">
+                            <h3 class="pricing-card__title" data-i18n="pricing.cards.enterprise.title">企业版</h3>
+                            <div class="pricing-card__price" id="enterprise-price">
+                                <span class="price monthly">¥299</span>
+                                <span class="price annually" style="display: none;">¥239</span>
+                                <span class="period monthly" data-i18n="pricing.perMonth">/ 月</span>
+                                <span class="period annually" style="display: none;" data-i18n="pricing.perMonth">/ 月</span>
+                            </div>
+                        </div>
+                        <div class="pricing-card__features">
+                            <ul>
+                                <li data-i18n="pricing.cards.enterprise.feature1">无限资产生成</li>
+                                <li data-i18n="pricing.cards.enterprise.feature2">所有专业版功能</li>
+                                <li data-i18n="pricing.cards.enterprise.feature3">优先 API 访问</li>
+                                <li data-i18n="pricing.cards.enterprise.feature4">最高处理速度</li>
+                                <li data-i18n="pricing.cards.enterprise.feature5">团队协作 (无限用户)</li>
+                                <li data-i18n="pricing.cards.enterprise.feature6">高级权限控制</li>
+                                <li data-i18n="pricing.cards.enterprise.feature7">专属客户经理</li>
+                                <li data-i18n="pricing.cards.enterprise.feature8">SLA 保障</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card__cta">
+                            <a href="#" class="btn btn--secondary btn--block" data-i18n="pricing.cards.enterprise.cta">联系销售</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing__guarantee">
+                    <i class="fas fa-shield-alt"></i>
+                    <p data-i18n="pricing.guarantee">14 天无条件退款保证，无风险尝试 AetherForge</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title" data-i18n="cta.title">准备好提升你的设计效率了吗？</h2>
+                    <p class="cta__text" data-i18n="cta.text">今天就开始使用 AetherForge，体验一键式资产生成的魔力</p>
+                    <div class="cta__buttons">
+                        <a href="#playground" class="btn btn--primary btn--lg" data-i18n="cta.primary">立即试用</a>
+                        <a href="#" class="btn btn--secondary btn--lg" data-i18n="cta.secondary">预约演示</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" data-i18n="faq.title">常见问题</h2>
+                    <p class="section-subtitle" data-i18n="faq.subtitle">了解更多关于 AetherForge 的常见问题和解答</p>
+                </div>
+                <div class="faq__list">
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3 data-i18n="faq.questions.q1">AetherForge 如何工作？</h3>
+                            <span class="faq-item__icon"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p data-i18n="faq.answers.a1">AetherForge 使用先进的 AI 技术分析您的输入（设计原型、HTML、SVG、Figma 或文本描述），然后根据您选择的风格和设置生成高质量的资产。整个过程完全自动化，只需点击几下即可完成。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3 data-i18n="faq.questions.q2">我需要设计经验才能使用 AetherForge 吗？</h3>
+                            <span class="faq-item__icon"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p data-i18n="faq.answers.a2">不需要！AetherForge 设计得非常直观，即使没有设计经验的用户也能轻松使用。您可以从文本描述开始，或者上传现有的设计，系统会引导您完成整个过程。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3 data-i18n="faq.questions.q3">我可以商用 AetherForge 生成的资产吗？</h3>
+                            <span class="faq-item__icon"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p data-i18n="faq.answers.a3">是的！专业版和企业版订阅允许您商用生成的资产，没有任何限制。免费版生成的资产仅允许个人使用。详细信息请查看我们的使用条款。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3 data-i18n="faq.questions.q4">我可以从 AetherForge 导出什么格式？</h3>
+                            <span class="faq-item__icon"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p data-i18n="faq.answers.a4">AetherForge 支持多种导出格式，包括 PNG、JPEG、SVG、PDF、HTML 和 CSS。您可以根据您的需求选择最合适的格式。</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-item__question">
+                            <h3 data-i18n="faq.questions.q5">AetherForge 与 Figma 如何集成？</h3>
+                            <span class="faq-item__icon"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+                        </div>
+                        <div class="faq-item__answer">
+                            <p data-i18n="faq.answers.a5">AetherForge 提供 Figma 插件和 URL 集成。您可以直接从 Figma 设计中生成资产，或者在我们的平台上输入 Figma URL 和选择特定的 Frame 或 Component 来处理。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <div class="logo logo--white">
+                        <img src="img/logo-white.svg" alt="AetherForge Logo" class="logo__img">
+                        <span class="logo__text" data-i18n="footer.logo">AetherForge</span>
+                    </div>
+                    <p class="footer__description" data-i18n="footer.description">智能资产生成平台，帮助设计师和开发者提升效率</p>
+                    <div class="footer__social">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-col">
+                        <h4 class="footer__nav-title" data-i18n="footer.product">产品</h4>
+                        <ul class="footer__nav-list">
+                            <li><a href="#features" data-i18n="footer.features">功能</a></li>
+                            <li><a href="#pricing" data-i18n="footer.pricing">价格</a></li>
+                            <li><a href="#" data-i18n="footer.roadmap">产品路线图</a></li>
+                            <li><a href="#" data-i18n="footer.changelog">更新日志</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-col">
+                        <h4 class="footer__nav-title" data-i18n="footer.company">公司</h4>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" data-i18n="footer.about">关于我们</a></li>
+                            <li><a href="#" data-i18n="footer.careers">招贤纳士</a></li>
+                            <li><a href="#" data-i18n="footer.blog">博客</a></li>
+                            <li><a href="#" data-i18n="footer.contact">联系我们</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-col">
+                        <h4 class="footer__nav-title" data-i18n="footer.resources">资源</h4>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" data-i18n="footer.docs">文档</a></li>
+                            <li><a href="#" data-i18n="footer.tutorials">教程</a></li>
+                            <li><a href="#" data-i18n="footer.community">社区</a></li>
+                            <li><a href="#" data-i18n="footer.api">API 参考</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-col">
+                        <h4 class="footer__nav-title" data-i18n="footer.legal">法律</h4>
+                        <ul class="footer__nav-list">
+                            <li><a href="#" data-i18n="footer.terms">使用条款</a></li>
+                            <li><a href="#" data-i18n="footer.privacy">隐私政策</a></li>
+                            <li><a href="#" data-i18n="footer.cookies">Cookie 政策</a></li>
+                            <li><a href="#" data-i18n="footer.security">安全</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copyright">
+                    <p data-i18n="footer.copyright">&copy; 2023 AetherForge. 保留所有权利。</p>
+                </div>
+                <div class="footer__language">
+                    <label for="language-selector" data-i18n="footer.language">语言：</label>
+                    <select id="language-selector">
+                        <option value="zh-CN" selected data-i18n="footer.languages.zhCN">简体中文</option>
+                        <option value="en" data-i18n="footer.languages.en">English</option>
+                        <option value="ja" data-i18n="footer.languages.ja">日本語</option>
+                        <option value="ko" data-i18n="footer.languages.ko">한국어</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/i18n.js"></script>
+</body>
 </html>

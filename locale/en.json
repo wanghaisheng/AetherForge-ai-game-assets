@@ -1,0 +1,325 @@
+{
+  "meta": {
+    "title": "AetherForge - Intelligent Asset Generation Platform",
+    "description": "AetherForge - One-click intelligent asset generation tool providing efficient asset creation solutions for designers and developers"
+  },
+  "header": {
+    "logo": "AetherForge",
+    "nav": {
+      "features": "Features",
+      "playground": "Try It",
+      "comparison": "Comparison",
+      "pricing": "Pricing"
+    },
+    "login": "Login",
+    "signup": "Start Free"
+  },
+  "hero": {
+    "title": "One-Click Intelligent<br>Asset Generation",
+    "subtitle": "From design to implementation, AetherForge helps designers and developers quickly transform ideas into high-quality digital assets",
+    "cta": {
+      "primary": "Try It Now",
+      "secondary": "Learn More"
+    },
+    "stats": {
+      "first": "Design Efficiency Increase",
+      "second": "Work Time Saved",
+      "third": "Satisfied Users"
+    }
+  },
+  "features": {
+    "title": "Powerful Features, Simple Experience",
+    "subtitle": "AetherForge offers an intuitive workflow with powerful asset generation capabilities",
+    "cards": {
+      "first": {
+        "title": "One-Click Asset Generation",
+        "text": "Just provide a design prototype or description, and AI automatically generates styled asset files"
+      },
+      "second": {
+        "title": "Intelligent Style Transfer",
+        "text": "Choose preset styles or customize your own, AI automatically applies them to your design"
+      },
+      "third": {
+        "title": "Multi-Format Support",
+        "text": "Supports various input formats including images, HTML, SVG, Figma, and text"
+      },
+      "fourth": {
+        "title": "Powerful Asset Management",
+        "text": "Centrally manage all generated assets for easy retrieval and reuse"
+      },
+      "fifth": {
+        "title": "Team Collaboration",
+        "text": "Multi-user collaboration features allow team members to easily share and work on assets together"
+      },
+      "sixth": {
+        "title": "High-Speed Processing",
+        "text": "Optimized AI models ensure quick generation of high-quality assets"
+      }
+    }
+  },
+  "how": {
+    "title": "Three Simple Steps, Assets Ready",
+    "subtitle": "Learn how AetherForge transforms your ideas into usable assets",
+    "steps": {
+      "first": {
+        "title": "Upload or Input",
+        "text": "Upload design prototypes as images, HTML, SVG, Figma files, or input text descriptions"
+      },
+      "second": {
+        "title": "Choose Style",
+        "text": "Select from preset styles or customize the style you want"
+      },
+      "third": {
+        "title": "Generate Assets",
+        "text": "One-click generation of high-quality assets to download or save to your asset library"
+      }
+    }
+  },
+  "playground": {
+    "title": "Try It Now",
+    "subtitle": "Experience AetherForge's core functionality and the magic of one-click asset generation",
+    "tabs": {
+      "image": "Image",
+      "html": "HTML",
+      "svg": "SVG",
+      "figma": "Figma",
+      "text": "Text"
+    },
+    "upload": {
+      "image": "Drag and drop or click to upload",
+      "formats": "Supports JPG, PNG, GIF"
+    },
+    "preview": {
+      "remove": "Remove",
+      "idle": "Asset preview will appear here",
+      "loading": "Processing...",
+      "error": "An error occurred during processing",
+      "tryAgain": "Try Again"
+    },
+    "placeholder": {
+      "html": "Enter HTML code here...",
+      "svg": "Enter SVG code here..."
+    },
+    "figma": {
+      "url": "Figma URL",
+      "placeholder": "https://www.figma.com/file/...",
+      "frame": "Select Frame/Component",
+      "select": "Enter a valid Figma URL first"
+    },
+    "text": {
+      "label": "Asset Description",
+      "placeholder": "Describe in detail the asset you want to create..."
+    },
+    "style": {
+      "label": "Choose Style",
+      "pixel": "Pixel Art",
+      "cartoon": "Cartoon",
+      "realistic": "Realistic",
+      "custom": "Custom Style"
+    },
+    "custom": {
+      "label": "Custom Style Description",
+      "placeholder": "Describe the style you want..."
+    },
+    "model": {
+      "label": "AI Model",
+      "sd": "Stable Diffusion",
+      "dalle": "DALL-E",
+      "recraft": "Recraft.ai"
+    },
+    "quality": {
+      "label": "Quality/Speed",
+      "speed": "Speed",
+      "quality": "Quality"
+    },
+    "generate": "Generate Asset",
+    "result": {
+      "regenerate": "Regenerate",
+      "download": "Download"
+    },
+    "steps": {
+      "analyzing": "Analyzing input...",
+      "generating": "Generating prompts...",
+      "processing": "Processing...",
+      "finalizing": "Finalizing asset generation..."
+    },
+    "errors": {
+      "noInput": "Please provide input content",
+      "processingFailed": "Processing failed, please try again"
+    },
+    "disclaimer": "Free trial has limited features. <a href=\"#pricing\">Upgrade</a> for full functionality."
+  },
+  "testimonials": {
+    "title": "User Feedback",
+    "subtitle": "See how other users are enhancing their workflow with AetherForge",
+    "cards": {
+      "first": {
+        "text": "\"AetherForge has completely transformed my workflow. I can now generate high-quality assets in minutes instead of spending hours creating them manually.\"",
+        "name": "Alex Johnson",
+        "role": "UI Designer, Tech Company"
+      },
+      "second": {
+        "text": "\"As a small team, we need to quickly generate a large number of assets. AetherForge makes this process simple and efficient, increasing our productivity by at least 3x.\"",
+        "name": "Sarah Williams",
+        "role": "Creative Director, Design Studio"
+      },
+      "third": {
+        "text": "\"The style transfer feature in AetherForge is incredibly powerful! I can easily convert existing designs into different styles to offer clients various options.\"",
+        "name": "Michael Chen",
+        "role": "Freelance Designer"
+      }
+    }
+  },
+  "comparison": {
+    "title": "Competitor Comparison",
+    "subtitle": "Learn how AetherForge outperforms competitors in key features",
+    "table": {
+      "aetherforge": "AetherForge",
+      "competitor1": "Competitor A",
+      "competitor2": "Competitor B"
+    },
+    "features": {
+      "oneclick": "One-Click Asset Generation",
+      "multiformat": "Multi-Format Support",
+      "customstyle": "Custom Styles",
+      "figma": "Figma Integration",
+      "team": "Team Collaboration",
+      "models": "Multiple AI Models",
+      "speed": "Processing Speed",
+      "quality": "Output Quality"
+    }
+  },
+  "painpoints": {
+    "title": "Solving User Pain Points",
+    "subtitle": "How AetherForge addresses common challenges faced by designers and developers",
+    "cards": {
+      "first": {
+        "problem": "Time-Consuming Manual Creation",
+        "description": "Designers spend a significant amount of time creating assets manually in various styles, reducing productivity.",
+        "solution": "AetherForge Solution",
+        "solutionText": "One-click asset generation reduces creation time from hours to minutes, boosting productivity."
+      },
+      "second": {
+        "problem": "Difficult Style Transfer",
+        "description": "Converting existing designs to new styles often requires redesigning, wasting time and resources.",
+        "solution": "AetherForge Solution",
+        "solutionText": "Intelligent style transfer easily converts existing designs to different styles without redesigning."
+      },
+      "third": {
+        "problem": "Tool Format Incompatibility",
+        "description": "Designers and developers use different tools, leading to incompatible asset formats and workflow disruptions.",
+        "solution": "AetherForge Solution",
+        "solutionText": "Multi-format support and conversion ensures seamless workflows between designers and developers."
+      },
+      "fourth": {
+        "problem": "Chaotic Asset Management",
+        "description": "As projects grow, assets proliferate, making management and retrieval difficult and time-consuming.",
+        "solution": "AetherForge Solution",
+        "solutionText": "Centralized asset library with powerful search, categorization, and version control simplifies asset management."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "Choose the plan that works best for you, upgrade or downgrade anytime",
+    "monthly": "Monthly",
+    "annually": "Annually",
+    "save": "Save 20%",
+    "forever": "Forever",
+    "perMonth": "/ month",
+    "perYear": "/ year",
+    "popular": "Most Popular",
+    "guarantee": "14-day unconditional money-back guarantee, try AetherForge risk-free",
+    "cards": {
+      "free": {
+        "title": "Free",
+        "feature1": "10 asset generations per month",
+        "feature2": "Basic style options",
+        "feature3": "Standard processing speed",
+        "feature4": "Personal use only",
+        "feature5": "Community support",
+        "cta": "Get Started"
+      },
+      "pro": {
+        "title": "Pro",
+        "feature1": "100 asset generations per month",
+        "feature2": "All preset styles",
+        "feature3": "Custom style descriptions",
+        "feature4": "Priority processing queue",
+        "feature5": "Multiple AI model selection",
+        "feature6": "Team collaboration (up to 3 users)",
+        "feature7": "Priority email support",
+        "cta": "Upgrade to Pro"
+      },
+      "enterprise": {
+        "title": "Enterprise",
+        "feature1": "Unlimited asset generations",
+        "feature2": "All Pro features",
+        "feature3": "Priority API access",
+        "feature4": "Maximum processing speed",
+        "feature5": "Team collaboration (unlimited users)",
+        "feature6": "Advanced permission controls",
+        "feature7": "Dedicated account manager",
+        "feature8": "SLA guarantees",
+        "cta": "Contact Sales"
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Boost Your Design Efficiency?",
+    "text": "Start using AetherForge today and experience the magic of one-click asset generation",
+    "primary": "Try It Now",
+    "secondary": "Schedule Demo"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Learn more about AetherForge and get answers to common questions",
+    "questions": {
+      "q1": "How does AetherForge work?",
+      "q2": "Do I need design experience to use AetherForge?",
+      "q3": "Can I use AetherForge-generated assets commercially?",
+      "q4": "What formats can I export from AetherForge?",
+      "q5": "How does AetherForge integrate with Figma?"
+    },
+    "answers": {
+      "a1": "AetherForge uses advanced AI technology to analyze your input (design prototype, HTML, SVG, Figma, or text description), then generates high-quality assets based on your chosen style and settings. The entire process is fully automated and requires just a few clicks to complete.",
+      "a2": "No! AetherForge is designed to be intuitive and can be used even by those without design experience. You can start with a text description or upload existing designs, and the system will guide you through the process.",
+      "a3": "Yes! Pro and Enterprise subscriptions allow commercial use of generated assets without restrictions. Assets generated with the Free plan are for personal use only. See our Terms of Use for detailed information.",
+      "a4": "AetherForge supports multiple export formats including PNG, JPEG, SVG, PDF, HTML, and CSS. You can choose the most suitable format for your needs.",
+      "a5": "AetherForge offers Figma plugins and URL integration. You can generate assets directly from your Figma designs or input a Figma URL and select specific Frames or Components to process on our platform."
+    }
+  },
+  "footer": {
+    "logo": "AetherForge",
+    "description": "Intelligent asset generation platform helping designers and developers boost efficiency",
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "roadmap": "Roadmap",
+    "changelog": "Changelog",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "blog": "Blog",
+    "contact": "Contact Us",
+    "resources": "Resources",
+    "docs": "Documentation",
+    "tutorials": "Tutorials",
+    "community": "Community",
+    "api": "API Reference",
+    "legal": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "security": "Security",
+    "copyright": "&copy; 2023 AetherForge. All rights reserved.",
+    "language": "Language:",
+    "languages": {
+      "zhCN": "简体中文",
+      "en": "English",
+      "ja": "日本語",
+      "ko": "한국어"
+    }
+  }
+}
+
